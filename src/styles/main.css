@@ -1,0 +1,21 @@
+*{
+    scroll-behavior: smooth;
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+a{
+    color:490B8B;
+    text-decoration: none;
+}
+a:hover{
+    color:#008FC1;
+    text-decoration: none;
+}
+body{
+    background-color:#FAF9FB;
+}
+header{
+    background-color:#FAF9FB;
+    color:#490B8B;
+}
