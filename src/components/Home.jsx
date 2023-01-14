@@ -6,7 +6,7 @@ import img1 from "../img/mobi1.png";
 import img2 from "../img/mobi2.png";
 import img3 from "../img/mobi3.png";
 import img4 from "../img/mobi4.png";
-import mobileapp from "../img/bigimg2.png";
+import mobileapp from "../img/bigimg3.png";
 
 export function Home() {
   return (
@@ -24,10 +24,10 @@ export function Home() {
                   connected to the activities organizers at the region
                 </p>
                 <div className="d-flex-start">
-                  <a href="">
+                  <a href="" className="button-hover">
                     <img src={android} width={200} alt="" />
                   </a>
-                  <a href="">
+                  <a href="" className="button-hover">
                     <img src={ios} width={200} alt="" />
                   </a>
                 </div>
@@ -99,10 +99,10 @@ export function Home() {
                   for you! Yay!
                 </p>
                 <div className="d-flex-start">
-                  <a href="">
+                  <a href=""  className="button-hover">
                     <img src={android} width={200} alt="" />
                   </a>
-                  <a href="">
+                  <a href=""  className="button-hover">
                     <img src={ios} width={200} alt="" />
                   </a>
                 </div>

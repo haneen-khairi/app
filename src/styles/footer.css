@@ -1,0 +1,56 @@
+footer {
+    padding: 40px 0px;
+    background-color: #FAF9FB;
+    border-top: 1px solid #CBB9DE;
+    border-radius: 100px 100px 0px 0px;
+}
+
+.btn-submit {
+    background-color: #623C8A;
+    border: 1px solid #CBB9DE;
+    border-radius: 14px;
+    color: #fff;
+    padding: 12px;
+    position: absolute;
+    right: 30px;
+}
+.btn-submit::after{
+    content: " ";
+    height: 9px;
+    width: 17px;
+    position: absolute;
+    top: 6px;
+    left: 2px;
+    border: 2px solid #CBB9DE;
+    border-radius: 57% 58% 74% 63% / 70% 63% 48% 78%;
+    transform: skew(9deg, 330deg);
+    border-bottom: none;
+    border-left: 1px;
+    border-right: 1px;
+
+}
+.mail-input{
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+.subscribe-input{
+position: relative;
+}
+.logo-sec{
+    text-align: left;
+    padding-left: 40px;
+}
+.link-footer{
+    text-align: left;
+    padding: 15px 40px;
+}
+.link-footer h4{
+    padding-left: 1.7rem;
+}
+.logo-sec p{
+    color: #7D848D;
+    padding:10px 0px 0px;
+}

@@ -13,16 +13,16 @@ export const Header = (props) => {
     <header>
       <div className="container">
         <div className="row">
-          <div className="col-md-2">
+          <div className="col-md-2 col-lg-2 col-sm-12">
             <div className="logo">
               <img src={logos} width={200} alt="" />
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-7 col-lg-7 col-sm-12">
             <div className="list-header">
               <ul className="d-flex">
                 <li>
-                  <a href={url}> {props.data ? props.data.link1 : "loading"}</a>
+                  <a href={url} className="active"> {props.data ? props.data.link1 : "loading"}</a>
                 </li>
                 <li>
                   <a href={url}>{props.data ? props.data.link2 : "loading"}</a>
@@ -39,13 +39,13 @@ export const Header = (props) => {
               </ul>
             </div>
           </div>
-          <div className="col-md-4">
-          <div>
-            <ul className="d-flex">
-                <li> <img src={icon1} width={30} height={30} alt="" /></li>
-                <li> <img src={icon2} width={30} height={30} alt="" /></li>
-                <li> <img src={icon3} width={30} height={30} alt="" /></li>
-                <li> <img src={icon4} width={30} height={30} alt="" /></li>
+          <div className="col-md-3 col-lg-3 col-sm-12">
+          <div className="social-links">
+            <ul className="d-flex icons">
+                <li><a href="" className="social-icon"> <img src={icon1} width={35} height={40} alt="" /></a></li>
+                <li><a href="" className="social-icon"> <img src={icon2} width={35} height={40} alt="" /></a></li>
+                <li><a href="" className="social-icon"> <img src={icon3} width={35} height={40} alt="" /></a></li>
+                <li><a href="" className="social-icon"> <img src={icon4} width={35} height={40} alt="" /></a></li>
             </ul>
           </div>
           </div>
